@@ -1,0 +1,19 @@
+{
+  "name": "vscode-themes",
+  "displayName": "TG11 VSC Themes",
+  "description": "A collection of VSCode Themes",
+  "version": "0.0.1",
+  "publisher": "TG11-LLC",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "CyberPunk HC",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cphc.jsonc"
+      }
+    ]
+  }
+}
